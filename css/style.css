@@ -79,3 +79,25 @@ a {
 .assine {
     color: white;
 }
+
+@media (min-width:768px) {
+    body {
+        background-image: url(../img/background-image.jpg);
+    }
+    header {
+        display: block;
+    }
+    main, .titulo, footer {
+        margin: 0 auto;
+        background-color: rgba(0,0,0,0.6);
+        width: 450px;
+        padding: 50px 38px 0px;
+    }
+    .input {
+        margin-top: -7px;
+    }
+    .entrar {
+        margin-top: 10px;
+    }
+}
+
