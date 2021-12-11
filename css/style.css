@@ -1,75 +1,81 @@
-/*!
-Theme Name: Portfólio
-Theme URI: http://underscores.me/
-Author: Maria Porcina
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: portfolio
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-Portfólio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-
---------------------------------------------
-ESTRUTURAÇÃO BASE (HC Desenvolvimentos v1)
---------------------------------------------
-**** GERAL
-**** BODY
-**** HEADER
-**** FOOTER
-**** PÁGINA INICIAL
-**** EXTRAS
-**** @media
-
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Slabo 27px', serif;
-font-family: 'Source Sans Pro', sans-serif;
-
-*/
-
-
-/* GERAL */
-
-/* GERAL */
-
-
-/* BODY */
-body{
-	
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
 }
-/* BODY */
-
-
-/* HEADER */
-header{
-	
+body {
+    background-color: black ;
+    color: #B3B3B3;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
-/* HEADER */
-
-
-/* FOOTER */
-footer{}
-/* FOOTER */
-
-
-/* PÁGINA INICIAL */
-main{
-	
+header {
+    margin: 20px 15px;
 }
-/* PÁGINA INICIAL */
-
-
-/* EXTRAS */
-
-/* EXTRAS */
+img {
+    width: 130px;
+}
+.titulo {
+    width: 100%;
+    max-width: 768px;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+main {
+    width: 100%;
+    max-width: 768px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    width: 95%;
+    max-width: 768px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:#333333 ;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+}
+.entrar {
+    margin-top: 35px;
+    background-color:#E80024;
+    color: white;
+    font-size: 1.9rem;
+}
+section {
+    max-width: 768px;
+    width: 100%;
+    padding: 0 30px;
+}
+span {
+    margin-left: 60px
+}
+footer {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 768px;
+    margin-top: 30px;
+}
+.lembrar {
+    font-size: 1.4rem;
+}
+.novo {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #1168D0;
+}
+.assine {
+    color: white;
+}

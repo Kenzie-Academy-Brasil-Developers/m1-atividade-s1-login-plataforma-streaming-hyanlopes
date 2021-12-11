@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
 
 	<title>Netflix</title>
 </head>
+
 <body>
 	<header>
-		
+		<img src="./img/logo.svg" alt="Netflix">
 	</header>
+	<section class="titulo">
+		<h1>Entrar</h1>
+	</section>
 	<main>
-		
+		<form action="">
+
+			<input type="email" name="email" id="email" placeholder="Email ou número de telefone" class="input">
+			<label for="email"></label>
+
+			<input type="password" name="senha" id="senha" placeholder="Senha" class="input">
+			<label for="senha"></label>
+
+			<input type="submit" name="entrar" id="entrar" value="Entrar" class="input entrar">
+			<label for="entrar"></label>
+		</form>
+		<section>
+			<input type="checkbox" name="lembre-se" id="lembrar">
+			<label for="lembrar" class="lembrar">Lembre-se de mim</label>
+			<span> <a href="#"> Precisa de Ajuda? </a></span>
+		</section>
 	</main>
 	<footer>
-		
+		<p class="novo">Novo por aqui? <a href="#" class="assine">Assine agora.</a></p>
+		<p>Esta pagina é protegifa pelo google reCAPTCHA para garantir que você não é um robo. <a href="#">Saiba
+				mais.</a></p>
 	</footer>
 </body>
+
 </html>
